@@ -21,9 +21,11 @@ const styles = StyleSheet.create({
         width: quadroWidth,
         maxWidth: quadroWidth,
         maxHeight: quadroHeight,
-        borderRadius: 10,
-        borderColor: '#000',
-        borderWidth: 2,
+        borderLeftColor: '#8a5050',
+        borderTopColor: '#8a5050',
+        borderBottomColor: '#c48b8b',
+        borderRightColor: '#c48b8b',
+        borderWidth: 10,
         flex:1
     },
     row: {

@@ -1,19 +1,19 @@
 import {StyleSheet, View, Text} from 'react-native'
 import { itemHeight, itemWidth } from '../util/params';
 
-const Item = (props) => {
+const Item = (prop) => {
     return(
         <View style = {styles.item}>
-            <Text style={styles.texto}>{props.name}</Text>
+            <Text style={styles.texto}>{prop.name}</Text>
         </View>
-    )
+    );
 };
 
 const styles = StyleSheet.create({
     item:{
         textAlign:'center',
-        height: itemWidth,
-        width: itemHeight,
+        height: itemHeight,
+        width: itemWidth,
         maxHeight: itemHeight,
         borderWidth: 5,
         backgroundColor: '#999',
